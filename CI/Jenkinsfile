@@ -100,7 +100,7 @@ options {
                 sh 'docker push kupaqu/bigdata-lab3:latest'
             }
         }
-	}
+    }
 
     post {
         always {
