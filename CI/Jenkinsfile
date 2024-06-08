@@ -97,7 +97,7 @@ options {
 
         stage('Push'){
             steps{
-                sh 'docker push kupaqu/bigdata-lab3:latest'
+                sh 'docker push kupaqu/bigdata-lab3'
             }
         }
 	}
